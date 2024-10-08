@@ -6,6 +6,8 @@ config();
 
 const app = express();
 
+console.log("hola pu");
+
 app.listen(process.env.SERVER_PORT, function () {
   console.log("Escuchando puerto " + process.env.SERVER_PORT);
 });
